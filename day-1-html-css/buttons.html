@@ -1,6 +1,7 @@
 <style>
     button{
         margin-top: 10;
+        vertical-align: top;
     }
     .subscribe-button{
         background-color: rgba(173, 14, 14, 0.846);
@@ -180,12 +181,107 @@
         border-width: 1.2px;
         margin-left: 10px;
         transition: background-color 0.15s;
+       
     }
+
 
     .save-button:hover{
         background-color: rgb(205, 227, 249);
     }
     
+    .stretch-button{
+        margin-left: 10px;
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        transition: 0.2s;   
+    }
+
+    .stretch-button:hover{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+    }
+
+    .shadow-button{
+        margin-left: 10px;
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        box-shadow: 4px 4px 3px black;
+    }
+
+    .shadow-button.shadow-button:active{
+        box-shadow: 0px 0px 0px black;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    .one-button{
+        margin-left: 10px;
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .one-button:hover{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .two-button{
+        margin-left: 10px;
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .two-button:hover{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .three-button{
+        margin-left: 10px;
+        background-color: green;
+        color: white;
+        border: none;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        padding-right: 10px;
+        padding-left: 10px;
+        font-weight: bold;
+        transition: 0.2s;
+    }
+
+    .three-button:hover{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
 </style>
 
 <button class="subscribe-button">
@@ -217,4 +313,19 @@
 </button>
 <button class="save-button">
     Save
+</button>
+<button class="stretch-button">
+    Stretch
+</button>
+<button class="shadow-button">
+    Shadow
+</button>
+<button class="one-button">
+    One
+</button>
+<button class="two-button">
+    Two
+</button>
+<button class="three-button">
+    Three
 </button>
