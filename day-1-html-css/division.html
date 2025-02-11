@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>div practise</title>
+        <style>
+            .users-div{
+                display: flex;
+                margin-top: 10px;
+                width: 300px;
+                align-items: center;
+            }
+
+            .pfp{
+                margin-right: 20px;
+                object-fit: cover;
+                height: 60px;
+                width: 60px;
+                border-radius: 30px;
+               
+            }
+
+            p{
+                margin-top: 0px;
+                margin-bottom: 0px;
+            }
+
+            .user-name{
+                font-weight: bold;
+                color: black;
+                margin-bottom: 6px;
+                margin-top: 0px;
+            }
+            
+            .bio,.popular{
+                color: grey;
+            }
+            
+            .popular{
+                font-size: 14px;
+            }
+
+            .follow-button{
+                align-items: center;
+                background-color: rgb(0, 125, 243);
+                color: white;
+                border: none;
+                border-radius: 4px;
+                height: 30px;
+                width: 80px;
+                font-weight: bold;
+                margin-left: auto;
+            }
+
+            .follow-div{
+                margin-left: auto;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="users-div">
+            <div>
+                <img class="pfp" src="goku.jpg">
+            </div>
+            <div class="user-info">
+                <p class="user-name">Goku</p>
+                <p class="bio">I am goku</p>
+                <p class="popular">popular</p>
+            </div>
+            <div class="follow-div">
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+        <div class="users-div">
+            <div>
+                <img class="pfp" style="object-position: right;" src="goku.jpg">
+            </div>
+            <div class="user-info">
+                <p class="user-name">Goku's left</p>
+                <p class="bio">I am Goku's left</p>
+                <p class="popular">very popular</p>
+            </div>
+            <div class="follow-div">
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+        <div class="users-div">
+            <div>
+                <img class="pfp" style=" object-position: left;" src="goku.jpg">
+            </div>
+            <div class="user-info">
+                <p class="user-name">Goku's right</p>
+                <p class="bio">I am Goku's right</p>
+                <p class="popular">so much popular</p>
+            </div>
+            <div class="follow-div">
+                <button class="follow-button">Follow</button>
+            </div>
+        </div>
+    </body>
+</html>
