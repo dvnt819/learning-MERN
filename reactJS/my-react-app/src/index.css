@@ -35,3 +35,14 @@
   padding: 12px 24px;
 
 }
+
+.student{
+  font-family: Arial , sans-serif;
+  font-size: 20px;
+  padding:10px;
+  border: 3px solid rgb(255, 182, 193 , 0.8);
+}
+
+.student p{
+  margin: 0;
+}
