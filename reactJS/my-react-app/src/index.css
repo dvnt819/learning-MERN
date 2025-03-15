@@ -46,3 +46,15 @@
 .student p{
   margin: 0;
 }
+
+.Welcome-Class{
+  background-color: green;
+  color: white;
+  display: block;
+}
+
+.Login-Class{
+  background-color: red;
+  color: white;
+  display: inline;
+}

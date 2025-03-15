@@ -7,6 +7,8 @@ import Food from './Food'
 import Card from './Card'
 import Button from './Button'
 import Student from './Student'
+import UserGreeting from './UserGreeting'
+import List from './List'
 
 function App() {
   return(
@@ -21,6 +23,8 @@ function App() {
         <Student name="Dhrutmil" age={22} isStudent={false}/>
         <Student name="Dhruti" age={20} isStudent={true}/>
         <Student name="Deep" />
+        <UserGreeting isLoggedIn={true} username="Dhvanit"/>
+        <List></List>
         <Footer></Footer>
     </div>
   );
