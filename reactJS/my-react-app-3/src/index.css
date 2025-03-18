@@ -1,0 +1,13 @@
+.outer-container{
+  border: 2px solid black;
+}
+
+.inner-container{
+  margin: 30px;
+  padding : 0px 5px;
+  border: 1px solid black;
+}
+
+body{
+  text-align: center;
+}

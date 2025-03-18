@@ -22,6 +22,11 @@ export default function (){
         setShipping(event.target.value)
     }
 
+    const [color,setColor]=useState("#FFFFFF")
+    function handleColorChange(event){
+        setColor(event.target.value)
+    }
+
     return (
         <>
             <input onChange={handleNameChange}></input>
@@ -49,6 +54,15 @@ export default function (){
                 Delivery
             </label>
             <p>Shipping : {shipping}</p>
+
+            <h1>Color Picker</h1>
+            <div className="outer-container" style={{backgroundColor:color}}>
+                <div className="inner-container" style={{backgroundColor:"white"}}>
+                    <h2>Selected Color : {color}</h2>
+                </div>
+            </div>
+            <h3>Select a Color</h3>
+            <input type="color" value={color} onChange={handleColorChange}/>
         </>
     )
 }
